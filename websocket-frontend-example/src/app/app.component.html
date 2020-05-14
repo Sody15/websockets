@@ -1,0 +1,9 @@
+<div style="text-align:center; display:flex;">
+  <div class="notification" *ngFor="let notif of (notifs$ | async)">
+    {{notif.id}}
+    <button (click)="deleteNotification(notif.id)">Delete</button>
+  </div>
+</div>
+
+<button (click)="addNotification()">Add notification me</button>
+

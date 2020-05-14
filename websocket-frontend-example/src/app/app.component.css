@@ -1,0 +1,8 @@
+.notification{
+  height: 50px;
+  width:200px;
+  background-color:grey;
+  border: 2px solid black;
+  margin-right: 30px;
+  color:white;
+}
